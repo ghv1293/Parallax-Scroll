@@ -1,0 +1,12 @@
+@import url("../css/bootstrap.css");
+.input-groups{
+    padding: 75px;
+    margin: 10%;
+}
+.input-group{
+    align-content: center;
+    padding: 5px;
+}
+body {
+    background-image: url("../images/img2.png");
+}

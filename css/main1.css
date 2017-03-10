@@ -1,0 +1,69 @@
+@import url("../css/bootstrap.css");
+.container{
+    max-width: 960px;
+    margin:0 auto;
+}
+.content{
+    padding:40px 0;
+}
+p{
+    color:black;
+    font-family:"cursive";
+    font-size:larger;
+    font-weight:bolder;
+    margin: auto;
+    font-style: italic;
+    content: open-quote;
+}
+body {
+    background-color: #d58512;
+}
+.parallax{
+    padding: 240px;
+    background-position: 0 0;
+}
+.parallax1{
+    background-image: url(../images/img4.png);
+    background-size: cover;
+}
+.parallax2{
+    background-image: url(../images/img3.jpg);
+    background-size: cover;
+}
+.parallax3{
+    background-image: url(../images/img3.png);
+    background-size: cover;
+}
+.round-button {
+    width:25%;
+}
+.round-button-circle {
+    width: 100%;
+    height:0;
+    padding-bottom: 100%;
+    border-radius: 50%;
+    border:10px solid #080808;
+    overflow:hidden;
+
+    background: #d58512;
+    box-shadow: 0 0 3px gray;
+}
+.round-button-circle:hover {
+    background:#30588e;
+}
+.round-button a {
+    display:block;
+    float:left;
+    width:100%;
+    padding-top:50%;
+    padding-bottom:50%;
+    line-height:1em;
+    margin-top:-0.5em;
+
+    text-align:center;
+    color:#0f0f0f;
+    font-family:"Script MT Bold";
+    font-size:large;
+    font-weight:bold;
+    text-decoration:none;
+}
